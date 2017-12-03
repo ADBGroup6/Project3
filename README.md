@@ -28,7 +28,7 @@ There are mainly two phases for a-priori algorithm, and the implementation of th
 python main.py INTEGRATED-DATASET.csv 0.03 0.7
 The sample we run are using parameter of min_sup 0.03 and min_conf 0.70. The result can be found in "output.txt".    
 Here are some interesting association rules extracted:     
-[Health,level 2]=>[DEPT OF HEALTH/MENTAL HYGIENE] (Conf: 279.1%, Supp: 8.7%). With job category of health and level 2, the position is very likely be posted from Dept. of health/mental hygiene.      
-[DEPT OF ENVIRONMENT PROTECTION,60000 ~ 80000]=>[level 0] (Conf: 210.0%, Supp: 6.9%). With salary range of 60000 ~ 80000 in Dept of environment protection are with high confidence of level 0.       
-[50000 ~ 140000]=>[level 0] (Conf: 100.0%, Supp: 3.2%). The salary of 50000 ~ 140000 and lelvel 0 is another example of association rule of salary range and job level extracted.     
+[COMMUNITY COORDINATOR]=>[level 0] (Conf: 100.0%, Supp: 4.2%). The job title of "COMMUNITY COORDINATOR" is very liked to be the level 0 position. 
+[50000 ~ 140000]=>[level 0] (Conf: 100.0%, Supp: 3.2%). The salary of 50000 ~ 140000 and lelvel 0 is another example of association rule of salary range and job level extracted. 
+[Health,level 1]=>[DEPT OF HEALTH/MENTAL HYGIENE] (Conf: 95.9%, Supp: 3.4%). With job category of health and level 2, the position is very likely be posted from Dept. of health/mental hygiene.      
 A lot of other interesting information of job category, job title, salary range and level are extracted as results.
